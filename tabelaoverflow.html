@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Overflow </title>
+    <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-indent: 1em;
+        }
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        div#tabela{
+            overflow-x: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1> Tabelas em telas pequenas </h1>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam eius rem adipisci voluptatibus, rerum deleniti dolorem! Provident tempore nobis beatae adipisci perspiciatis, expedita sapiente, eveniet perferendis repellendus ipsa esse explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum esse nisi incidunt, neque eligendi animi, placeat architecto eos, blanditiis eaque saepe ipsam. Alias delectus porro consequuntur aliquam. Fugiat, veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem voluptas ut architecto maxime accusamus? Dolorem dicta, vero distinctio quisquam quidem iure rem iusto, quaerat asperiores minima eveniet magni quae.</p>
+
+    <div id="tabela">
+        <table>
+            <caption> Tabelas responsivas </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Produtos</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">JUl</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col"> Nov</th>
+                    <th scope="col">Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>02</td>
+                    <td>04</td>
+                    <td>06</td>
+                    <td>09</td>
+                    <td>08</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>01</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>06</td>
+                    <td>04</td>
+                    <td>02</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S20</td>
+                    <td>06</td>
+                    <td>04</td>
+                    <td>08</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>03</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>04</td>
+                    <td>08</td>
+                    <td>06</td>
+                    <td>07</td>
+                </tr>
+                <tr>
+                    <td>Ipad mini</td>
+                    <td>02</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>05</td>
+                    <td>08</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>09</td>
+                </tr>
+                <tr>
+                    <td>Play station 4</td>
+                    <td>06</td>
+                    <td>08</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>05</td>
+                    <td>08</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td>Lava louças</td>
+                    <td>06</td>
+                    <td>04</td>
+                    <td>08</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>03</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>04</td>
+                    <td>08</td>
+                    <td>06</td>
+                    <td>07</td>
+                </tr>
+                <tr>
+                    <td>Amazon echo</td>
+                    <td>02</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>05</td>
+                    <td>08</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>09</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolor provident explicabo mollitia iste fuga dolores vel,aperiam, molestiae cumque natus nostrum possimus exercitationem sint cum incidunt aspernatur dolorem repudiandae? lorem 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe nisi, aperiam corrupti minima vitae aspernatur, error excepturi eaque, voluptates perferendis repudiandae unde est! Autem nostrum aliquam nisi magnam molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam tenetur at minima, dolorem dignissimos ad! Animi, ad totam magnam et dolores ratione corrupti. Nesciunt doloremque blanditiis culpa reprehenderit in.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolor provident explicabo mollitia iste fuga dolores vel, aperiam, molestiae cumque natus nostrum possimus exercitationem sint cum incidunt aspernatur dolorem repudiandae? lorem 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe nisi, aperiam corrupti minima vitae aspernatur, error excepturi eaque, voluptates perferendis repudiandae unde est! Autem nostrum aliquam nisi magnam molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam tenetur at minima, dolorem dignissimos ad! Animi, ad totam magnam et dolores ratione corrupti. Nesciunt doloremque blanditiis culpa reprehenderit in. 
+    </p>
+</body>
+</html>
