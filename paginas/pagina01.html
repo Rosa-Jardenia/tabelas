@@ -1,48 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Overflow </title>
-    <style>
-        h1{
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-            font-size: 1.3em;
-        }
-        p{
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: justify;
-            text-indent: 1em;
-        }
-        caption{
-            background-color: lightgray;
-        }
-        table{
-            font-family: Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-        }
-        td,th{
-            border: 1px solid black;
-            padding: 10px;
-        }
-        tbody > tr:nth-child(2n){
-            background-color: lightgray;
-        }
-        div#tabela{
-            overflow-x: scroll;
-        }
-    </style>
-</head>
-<body>
-    <h1> Tabelas em telas pequenas </h1>
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam eius rem adipisci voluptatibus, rerum deleniti dolorem! Provident tempore nobis beatae adipisci perspiciatis, expedita sapiente, eveniet perferendis repellendus ipsa esse explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum esse nisi incidunt, neque eligendi animi, placeat architecto eos, blanditiis eaque saepe ipsam. Alias delectus porro consequuntur aliquam. Fugiat, veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem voluptas ut architecto maxime accusamus? Dolorem dicta, vero distinctio quisquam quidem iure rem iusto, quaerat asperiores minima eveniet magni quae.</p>
-
-    <div id="tabela">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                text-indent: 1em;
+            }
+            caption{
+                background-color: lightgray;
+            }
+            table{
+                font-family: Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+            }
+            td,th{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            tbody > tr:nth-child(2n){
+                background-color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
         <table>
-            <caption> Vendas de produtos por mês </caption>
+           <caption> Vendas de produtos por mês </caption>
             <thead>
-                <tr>
+                <tr> 
                     <th scope="col">Produtos</th>
                     <th scope="col">Jan</th>
                     <th scope="col">Fev</th>
@@ -166,13 +154,5 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-
-    <p>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolor provident explicabo mollitia iste fuga dolores vel,aperiam, molestiae cumque natus nostrum possimus exercitationem sint cum incidunt aspernatur dolorem repudiandae? lorem 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe nisi, aperiam corrupti minima vitae aspernatur, error excepturi eaque, voluptates perferendis repudiandae unde est! Autem nostrum aliquam nisi magnam molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam tenetur at minima, dolorem dignissimos ad! Animi, ad totam magnam et dolores ratione corrupti. Nesciunt doloremque blanditiis culpa reprehenderit in.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolor provident explicabo mollitia iste fuga dolores vel, aperiam, molestiae cumque natus nostrum possimus exercitationem sint cum incidunt aspernatur dolorem repudiandae? lorem 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe nisi, aperiam corrupti minima vitae aspernatur, error excepturi eaque, voluptates perferendis repudiandae unde est! Autem nostrum aliquam nisi magnam molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam tenetur at minima, dolorem dignissimos ad! Animi, ad totam magnam et dolores ratione corrupti. Nesciunt doloremque blanditiis culpa reprehenderit in. 
-    </p>
-</body>
+    </body>
 </html>
